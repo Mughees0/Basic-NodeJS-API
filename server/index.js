@@ -28,4 +28,4 @@ app.post("/stock/buy", (req, res) => {
   }
 });
 
-app.listen(PORT, () => console.log(`Now working on ${PORT}`));
+app.listen(PORT, () => console.log(`Now working on http://localhost:${PORT}`));
